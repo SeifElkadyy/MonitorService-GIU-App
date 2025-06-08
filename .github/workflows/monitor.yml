@@ -1,0 +1,43 @@
+name: GIU Portal Monitor
+
+on:
+  schedule:
+    # Runs every hour at minute 0
+    - cron: '0 * * * *'
+  
+  # Allows manual trigger
+  workflow_dispatch:
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.9'
+        
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+        
+    - name: Run GIU Portal Monitor
+      env:
+        GIU_USERNAME: ${{ secrets.GIU_USERNAME }}
+        GIU_PASSWORD: ${{ secrets.GIU_PASSWORD }}
+        YOUR_EMAIL: ${{ secrets.YOUR_EMAIL }}
+        EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+      run: |
+        python monitor.py
+        
+    - name: Commit and push data changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add previous_data.json
+        git diff --staged --quiet || git commit -m "Update monitoring data - $(date)"
+        git push
