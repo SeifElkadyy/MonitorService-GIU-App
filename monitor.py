@@ -259,21 +259,15 @@ class GitHubPortalMonitor:
         return changes
     
     def send_email(self, changes):
-        """Send detailed email notification"""
+        """Send detailed email notification with enhanced styling"""
         if not changes:
             return
         
         try:
-            msg = MIMEMultipart()
+            msg = MIMEMultipart('alternative')
             msg['From'] = self.email
             msg['To'] = self.email
             msg['Subject'] = f"🎓 GIU Portal Updates - {len(changes)} Change(s) Detected"
-            
-            # Create detailed email body
-            body = f"Hello!\n\n"
-            body += f"📋 DETAILED GIU PORTAL MONITORING RESULTS\n"
-            body += f"{'='*50}\n\n"
-            body += f"Total Changes Detected: {len(changes)}\n\n"
             
             # Group changes by type
             grade_changes = [c for c in changes if any(word in c.lower() for word in ['grade', 'midterm'])]
@@ -281,35 +275,163 @@ class GitHubPortalMonitor:
             transcript_changes = [c for c in changes if any(word in c.lower() for word in ['transcript', 'gpa', 'course'])]
             other_changes = [c for c in changes if c not in grade_changes + attendance_changes + transcript_changes]
             
-            if grade_changes:
-                body += f"📊 GRADES CHANGES ({len(grade_changes)}):\n"
-                for i, change in enumerate(grade_changes, 1):
-                    body += f"  {i}. {change}\n"
-                body += "\n"
+            # Create HTML email body
+            html_body = f"""
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>GIU Portal Updates</title>
+            </head>
+            <body style="margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f5f5f5;">
+                <div style="max-width: 600px; margin: 20px auto; background-color: #ffffff; border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.1); overflow: hidden;">
+                    
+                    <!-- Header -->
+                    <div style="background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%); color: white; padding: 30px 25px; text-align: center;">
+                        <h1 style="margin: 0; font-size: 28px; font-weight: 600; letter-spacing: -0.5px;">
+                            🎓 GIU Portal Updates
+                        </h1>
+                        <p style="margin: 10px 0 0 0; font-size: 16px; opacity: 0.9;">
+                            {len(changes)} Change(s) Detected
+                        </p>
+                    </div>
+                    
+                    <!-- Summary Card -->
+                    <div style="padding: 25px; border-bottom: 1px solid #e5e7eb;">
+                        <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 20px; border-radius: 8px; text-align: center;">
+                            <h2 style="margin: 0 0 10px 0; font-size: 20px; font-weight: 600;">📋 Summary</h2>
+                            <div style="display: flex; justify-content: space-around; flex-wrap: wrap; margin-top: 15px;">
+                                <div style="text-align: center; margin: 5px;">
+                                    <div style="font-size: 24px; font-weight: bold;">{len(grade_changes)}</div>
+                                    <div style="font-size: 12px; opacity: 0.8;">Grades</div>
+                                </div>
+                                <div style="text-align: center; margin: 5px;">
+                                    <div style="font-size: 24px; font-weight: bold;">{len(attendance_changes)}</div>
+                                    <div style="font-size: 12px; opacity: 0.8;">Attendance</div>
+                                </div>
+                                <div style="text-align: center; margin: 5px;">
+                                    <div style="font-size: 24px; font-weight: bold;">{len(transcript_changes)}</div>
+                                    <div style="font-size: 12px; opacity: 0.8;">Transcript</div>
+                                </div>
+                                <div style="text-align: center; margin: 5px;">
+                                    <div style="font-size: 24px; font-weight: bold;">{len(other_changes)}</div>
+                                    <div style="font-size: 12px; opacity: 0.8;">Other</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Changes Content -->
+                    <div style="padding: 25px;">
+            """
             
-            if attendance_changes:
-                body += f"📅 ATTENDANCE CHANGES ({len(attendance_changes)}):\n"
-                for i, change in enumerate(attendance_changes, 1):
-                    body += f"  {i}. {change}\n"
-                body += "\n"
+            # Add sections for each type of change
+            sections = [
+                (grade_changes, "📊 Grades Changes", "#10B981", "#D1FAE5"),
+                (attendance_changes, "📅 Attendance Changes", "#3B82F6", "#DBEAFE"),
+                (transcript_changes, "🎓 Transcript Changes", "#8B5CF6", "#EDE9FE"),
+                (other_changes, "📋 Other Changes", "#6B7280", "#F3F4F6")
+            ]
             
-            if transcript_changes:
-                body += f"🎓 TRANSCRIPT CHANGES ({len(transcript_changes)}):\n"
-                for i, change in enumerate(transcript_changes, 1):
-                    body += f"  {i}. {change}\n"
-                body += "\n"
+            for changes_list, title, color, bg_color in sections:
+                if changes_list:
+                    html_body += f"""
+                        <div style="margin-bottom: 25px;">
+                            <div style="background-color: {bg_color}; border-left: 4px solid {color}; padding: 15px 20px; border-radius: 6px; margin-bottom: 15px;">
+                                <h3 style="margin: 0; color: {color}; font-size: 18px; font-weight: 600;">
+                                    {title} ({len(changes_list)})
+                                </h3>
+                            </div>
+                            <div style="margin-left: 10px;">
+                    """
+                    
+                    for i, change in enumerate(changes_list, 1):
+                        # Style different types of changes
+                        if "new" in change.lower() or "updated" in change.lower():
+                            badge_color = "#10B981"
+                            badge_text = "NEW"
+                        elif "warning" in change.lower():
+                            badge_color = "#F59E0B"
+                            badge_text = "WARNING"
+                        elif "gpa" in change.lower():
+                            badge_color = "#8B5CF6"
+                            badge_text = "GPA"
+                        else:
+                            badge_color = "#6B7280"
+                            badge_text = "UPDATE"
+                        
+                        html_body += f"""
+                            <div style="display: flex; align-items: center; padding: 12px 0; border-bottom: 1px solid #f1f3f4;">
+                                <span style="background-color: {badge_color}; color: white; padding: 4px 8px; border-radius: 12px; font-size: 10px; font-weight: 600; margin-right: 12px; min-width: 50px; text-align: center;">
+                                    {badge_text}
+                                </span>
+                                <span style="color: #374151; font-size: 14px; line-height: 1.4;">
+                                    {change}
+                                </span>
+                            </div>
+                        """
+                    
+                    html_body += """
+                            </div>
+                        </div>
+                    """
             
-            if other_changes:
-                body += f"📋 OTHER CHANGES ({len(other_changes)}):\n"
-                for i, change in enumerate(other_changes, 1):
-                    body += f"  {i}. {change}\n"
-                body += "\n"
+            # Add footer
+            current_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            html_body += f"""
+                    </div>
+                    
+                    <!-- Footer -->
+                    <div style="background-color: #f8fafc; padding: 20px 25px; border-top: 1px solid #e5e7eb;">
+                        <div style="text-align: center; margin-bottom: 15px;">
+                            <a href="https://portal.giu-uni.de" style="display: inline-block; background: linear-gradient(135deg, #FF6B35 0%, #F7931E 100%); color: white; text-decoration: none; padding: 12px 24px; border-radius: 6px; font-weight: 600; font-size: 14px;">
+                                🔗 Visit GIU Portal
+                            </a>
+                        </div>
+                        
+                        <div style="text-align: center; color: #6B7280; font-size: 12px; line-height: 1.5;">
+                            <p style="margin: 5px 0;">⏰ Checked at: {current_time} UTC</p>
+                            <p style="margin: 5px 0;">🤖 Automated GIU Portal Monitor (GitHub Actions)</p>
+                            <p style="margin: 10px 0 0 0; padding-top: 10px; border-top: 1px solid #e5e7eb;">
+                                <strong>Stay updated with your academic progress!</strong>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </body>
+            </html>
+            """
             
-            body += f"⏰ Checked at: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} UTC\n"
-            body += f"🔗 Visit: https://portal.giu-uni.de\n"
-            body += f"\n🤖 Automated GIU Portal Monitor (GitHub Actions)"
+            # Create plain text version for compatibility
+            text_body = f"""
+GIU PORTAL UPDATES
+{'='*50}
+
+Total Changes Detected: {len(changes)}
+
+"""
             
-            msg.attach(MIMEText(body, 'plain'))
+            # Add plain text sections
+            for changes_list, title in [(grade_changes, "GRADES CHANGES"), 
+                                       (attendance_changes, "ATTENDANCE CHANGES"),
+                                       (transcript_changes, "TRANSCRIPT CHANGES"), 
+                                       (other_changes, "OTHER CHANGES")]:
+                if changes_list:
+                    text_body += f"{title} ({len(changes_list)}):\n"
+                    for i, change in enumerate(changes_list, 1):
+                        text_body += f"  {i}. {change}\n"
+                    text_body += "\n"
+            
+            text_body += f"""
+⏰ Checked at: {current_time} UTC
+🔗 Visit: https://portal.giu-uni.de
+
+            """
+            
+            # Attach both versions
+            msg.attach(MIMEText(text_body, 'plain'))
+            msg.attach(MIMEText(html_body, 'html'))
             
             # Send email
             server = smtplib.SMTP('smtp.gmail.com', 587)
