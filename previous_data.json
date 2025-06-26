@@ -1,6 +1,529 @@
 {
   "detailed_grades": {
+    "4715": {
+      "available_courses": [
+        {
+          "code": "69",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        },
+        {
+          "code": "105",
+          "name": "German 4",
+          "selected": false
+        },
+        {
+          "code": "4674",
+          "name": "Mathematics IV",
+          "selected": false
+        },
+        {
+          "code": "4676",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "4677",
+          "name": "Information Security",
+          "selected": false
+        },
+        {
+          "code": "4678",
+          "name": "Introduction to Data Science",
+          "selected": false
+        },
+        {
+          "code": "4679",
+          "name": "Introduction to Media Informatics",
+          "selected": false
+        },
+        {
+          "code": "4715",
+          "name": "Software Engineering",
+          "selected": true
+        }
+      ],
+      "detailed_grades": [
+        {
+          "element_name": "Group Evaluation",
+          "grade": "26.25/26.25",
+          "professor": "John Fayez Wanis Zaki",
+          "quiz_assignment": "Project"
+        },
+        {
+          "element_name": "Individual Quiz",
+          "grade": "13.88/15.75",
+          "professor": "John Fayez Wanis Zaki",
+          "quiz_assignment": ""
+        }
+      ],
+      "midterm_results": [
+        {
+          "course": "Research Paper Writing (A2) RPW401",
+          "percentage": "90"
+        },
+        {
+          "course": "Distributed &Web-based Systems INCS406",
+          "percentage": "58.7302"
+        },
+        {
+          "course": "Introduction to Data Science INCS408",
+          "percentage": "52.9412"
+        },
+        {
+          "course": "Introduction to Media Informatics INCS409",
+          "percentage": "36.25"
+        },
+        {
+          "course": "Mathematics IV MATH403",
+          "percentage": "34.1667"
+        },
+        {
+          "course": "Information Security INCS407",
+          "percentage": "33.2168"
+        },
+        {
+          "course": "Software Engineering CSEN406",
+          "percentage": "60.3675"
+        }
+      ]
+    },
+    "244605": {
+      "available_courses": [],
+      "detailed_grades": [],
+      "midterm_results": []
+    },
+    "4679": {
+      "available_courses": [
+        {
+          "code": "69",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        },
+        {
+          "code": "105",
+          "name": "German 4",
+          "selected": false
+        },
+        {
+          "code": "4674",
+          "name": "Mathematics IV",
+          "selected": false
+        },
+        {
+          "code": "4676",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "4677",
+          "name": "Information Security",
+          "selected": false
+        },
+        {
+          "code": "4678",
+          "name": "Introduction to Data Science",
+          "selected": false
+        },
+        {
+          "code": "4679",
+          "name": "Introduction to Media Informatics",
+          "selected": true
+        },
+        {
+          "code": "4715",
+          "name": "Software Engineering",
+          "selected": false
+        }
+      ],
+      "detailed_grades": [
+        {
+          "element_name": "Total",
+          "grade": "7/15.7",
+          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
+          "quiz_assignment": "Quiz 1"
+        },
+        {
+          "element_name": "Total",
+          "grade": "7.5/15.7",
+          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
+          "quiz_assignment": "Quiz 2"
+        },
+        {
+          "element_name": "Total",
+          "grade": "7/15.75",
+          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
+          "quiz_assignment": "Quiz 3"
+        },
+        {
+          "element_name": "Assignment1",
+          "grade": "6/6",
+          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
+          "quiz_assignment": "Assignments"
+        },
+        {
+          "element_name": "Assignment2",
+          "grade": "6.01/6.3",
+          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
+          "quiz_assignment": ""
+        },
+        {
+          "element_name": "Project",
+          "grade": "8.7/8.7",
+          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
+          "quiz_assignment": ""
+        }
+      ],
+      "midterm_results": [
+        {
+          "course": "Research Paper Writing (A2) RPW401",
+          "percentage": "90"
+        },
+        {
+          "course": "Distributed &Web-based Systems INCS406",
+          "percentage": "58.7302"
+        },
+        {
+          "course": "Introduction to Data Science INCS408",
+          "percentage": "52.9412"
+        },
+        {
+          "course": "Introduction to Media Informatics INCS409",
+          "percentage": "36.25"
+        },
+        {
+          "course": "Mathematics IV MATH403",
+          "percentage": "34.1667"
+        },
+        {
+          "course": "Information Security INCS407",
+          "percentage": "33.2168"
+        },
+        {
+          "course": "Software Engineering CSEN406",
+          "percentage": "60.3675"
+        }
+      ]
+    },
+    "244603": {
+      "available_courses": [],
+      "detailed_grades": [],
+      "midterm_results": []
+    },
+    "4677": {
+      "available_courses": [
+        {
+          "code": "69",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        },
+        {
+          "code": "105",
+          "name": "German 4",
+          "selected": false
+        },
+        {
+          "code": "4674",
+          "name": "Mathematics IV",
+          "selected": false
+        },
+        {
+          "code": "4676",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "4677",
+          "name": "Information Security",
+          "selected": true
+        },
+        {
+          "code": "4678",
+          "name": "Introduction to Data Science",
+          "selected": false
+        },
+        {
+          "code": "4679",
+          "name": "Introduction to Media Informatics",
+          "selected": false
+        },
+        {
+          "code": "4715",
+          "name": "Software Engineering",
+          "selected": false
+        }
+      ],
+      "detailed_grades": [
+        {
+          "element_name": "Quiz 1",
+          "grade": "0/20",
+          "professor": "Mohamed Wael Elsayed Ahmed",
+          "quiz_assignment": "Quiz 1"
+        },
+        {
+          "element_name": "Quiz 2",
+          "grade": "3/20",
+          "professor": "Mohamed Wael Elsayed Ahmed",
+          "quiz_assignment": "Quiz 2"
+        },
+        {
+          "element_name": "Assignment 1",
+          "grade": "10/10",
+          "professor": "Mohamed Wael Elsayed Ahmed",
+          "quiz_assignment": "Assignment 1"
+        },
+        {
+          "element_name": "Assignment 2",
+          "grade": "9.5/10",
+          "professor": "Mohamed Wael Elsayed Ahmed",
+          "quiz_assignment": "Assignment 2"
+        },
+        {
+          "element_name": "Quiz 3",
+          "grade": "14/20",
+          "professor": "Mohamed Wael Elsayed Ahmed",
+          "quiz_assignment": "Quiz 3"
+        }
+      ],
+      "midterm_results": [
+        {
+          "course": "Research Paper Writing (A2) RPW401",
+          "percentage": "90"
+        },
+        {
+          "course": "Distributed &Web-based Systems INCS406",
+          "percentage": "58.7302"
+        },
+        {
+          "course": "Introduction to Data Science INCS408",
+          "percentage": "52.9412"
+        },
+        {
+          "course": "Introduction to Media Informatics INCS409",
+          "percentage": "36.25"
+        },
+        {
+          "course": "Mathematics IV MATH403",
+          "percentage": "34.1667"
+        },
+        {
+          "course": "Information Security INCS407",
+          "percentage": "33.2168"
+        },
+        {
+          "course": "Software Engineering CSEN406",
+          "percentage": "60.3675"
+        }
+      ]
+    },
     "244606": {
+      "available_courses": [],
+      "detailed_grades": [],
+      "midterm_results": []
+    },
+    "105": {
+      "available_courses": [
+        {
+          "code": "69",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        },
+        {
+          "code": "105",
+          "name": "German 4",
+          "selected": true
+        },
+        {
+          "code": "4674",
+          "name": "Mathematics IV",
+          "selected": false
+        },
+        {
+          "code": "4676",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "4677",
+          "name": "Information Security",
+          "selected": false
+        },
+        {
+          "code": "4678",
+          "name": "Introduction to Data Science",
+          "selected": false
+        },
+        {
+          "code": "4679",
+          "name": "Introduction to Media Informatics",
+          "selected": false
+        },
+        {
+          "code": "4715",
+          "name": "Software Engineering",
+          "selected": false
+        }
+      ],
+      "detailed_grades": [],
+      "midterm_results": [
+        {
+          "course": "Research Paper Writing (A2) RPW401",
+          "percentage": "90"
+        },
+        {
+          "course": "Distributed &Web-based Systems INCS406",
+          "percentage": "58.7302"
+        },
+        {
+          "course": "Introduction to Data Science INCS408",
+          "percentage": "52.9412"
+        },
+        {
+          "course": "Introduction to Media Informatics INCS409",
+          "percentage": "36.25"
+        },
+        {
+          "course": "Mathematics IV MATH403",
+          "percentage": "34.1667"
+        },
+        {
+          "course": "Information Security INCS407",
+          "percentage": "33.2168"
+        },
+        {
+          "course": "Software Engineering CSEN406",
+          "percentage": "60.3675"
+        }
+      ]
+    },
+    "4678": {
+      "available_courses": [
+        {
+          "code": "69",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        },
+        {
+          "code": "105",
+          "name": "German 4",
+          "selected": false
+        },
+        {
+          "code": "4674",
+          "name": "Mathematics IV",
+          "selected": false
+        },
+        {
+          "code": "4676",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "4677",
+          "name": "Information Security",
+          "selected": false
+        },
+        {
+          "code": "4678",
+          "name": "Introduction to Data Science",
+          "selected": true
+        },
+        {
+          "code": "4679",
+          "name": "Introduction to Media Informatics",
+          "selected": false
+        },
+        {
+          "code": "4715",
+          "name": "Software Engineering",
+          "selected": false
+        }
+      ],
+      "detailed_grades": [
+        {
+          "element_name": "Question1",
+          "grade": "6.5/12",
+          "professor": "Sandra Samuel Fathy Yacoub",
+          "quiz_assignment": "Quiz 1"
+        },
+        {
+          "element_name": "Question1",
+          "grade": "5/8",
+          "professor": "Sandra Samuel Fathy Yacoub",
+          "quiz_assignment": "Quiz 2"
+        },
+        {
+          "element_name": "Question1",
+          "grade": "8/10",
+          "professor": "Sandra Samuel Fathy Yacoub",
+          "quiz_assignment": "Assignment 1"
+        },
+        {
+          "element_name": "Question1",
+          "grade": "19.75/25",
+          "professor": "Sandra Samuel Fathy Yacoub",
+          "quiz_assignment": "Assignment 2"
+        },
+        {
+          "element_name": "Question1",
+          "grade": "25/25",
+          "professor": "Sandra Samuel Fathy Yacoub",
+          "quiz_assignment": "Assignment 3"
+        },
+        {
+          "element_name": "Question1",
+          "grade": "9.5/15",
+          "professor": "Sandra Samuel Fathy Yacoub",
+          "quiz_assignment": "Quiz 3"
+        }
+      ],
+      "midterm_results": [
+        {
+          "course": "Research Paper Writing (A2) RPW401",
+          "percentage": "90"
+        },
+        {
+          "course": "Distributed &Web-based Systems INCS406",
+          "percentage": "58.7302"
+        },
+        {
+          "course": "Introduction to Data Science INCS408",
+          "percentage": "52.9412"
+        },
+        {
+          "course": "Introduction to Media Informatics INCS409",
+          "percentage": "36.25"
+        },
+        {
+          "course": "Mathematics IV MATH403",
+          "percentage": "34.1667"
+        },
+        {
+          "course": "Information Security INCS407",
+          "percentage": "33.2168"
+        },
+        {
+          "course": "Software Engineering CSEN406",
+          "percentage": "60.3675"
+        }
+      ]
+    },
+    "244604": {
+      "available_courses": [],
+      "detailed_grades": [],
+      "midterm_results": []
+    },
+    "244608": {
+      "available_courses": [],
+      "detailed_grades": [],
+      "midterm_results": []
+    },
+    "260681": {
+      "available_courses": [],
+      "detailed_grades": [],
+      "midterm_results": []
+    },
+    "244609": {
       "available_courses": [],
       "detailed_grades": [],
       "midterm_results": []
@@ -117,122 +640,10 @@
         }
       ]
     },
-    "244605": {
+    "244607": {
       "available_courses": [],
       "detailed_grades": [],
       "midterm_results": []
-    },
-    "4678": {
-      "available_courses": [
-        {
-          "code": "69",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        },
-        {
-          "code": "105",
-          "name": "German 4",
-          "selected": false
-        },
-        {
-          "code": "4674",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "4676",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "4677",
-          "name": "Information Security",
-          "selected": false
-        },
-        {
-          "code": "4678",
-          "name": "Introduction to Data Science",
-          "selected": true
-        },
-        {
-          "code": "4679",
-          "name": "Introduction to Media Informatics",
-          "selected": false
-        },
-        {
-          "code": "4715",
-          "name": "Software Engineering",
-          "selected": false
-        }
-      ],
-      "detailed_grades": [
-        {
-          "element_name": "Question1",
-          "grade": "6.5/12",
-          "professor": "Sandra Samuel Fathy Yacoub",
-          "quiz_assignment": "Quiz 1"
-        },
-        {
-          "element_name": "Question1",
-          "grade": "5/8",
-          "professor": "Sandra Samuel Fathy Yacoub",
-          "quiz_assignment": "Quiz 2"
-        },
-        {
-          "element_name": "Question1",
-          "grade": "8/10",
-          "professor": "Sandra Samuel Fathy Yacoub",
-          "quiz_assignment": "Assignment 1"
-        },
-        {
-          "element_name": "Question1",
-          "grade": "19.75/25",
-          "professor": "Sandra Samuel Fathy Yacoub",
-          "quiz_assignment": "Assignment 2"
-        },
-        {
-          "element_name": "Question1",
-          "grade": "25/25",
-          "professor": "Sandra Samuel Fathy Yacoub",
-          "quiz_assignment": "Assignment 3"
-        },
-        {
-          "element_name": "Question1",
-          "grade": "9.5/15",
-          "professor": "Sandra Samuel Fathy Yacoub",
-          "quiz_assignment": "Quiz 3"
-        }
-      ],
-      "midterm_results": [
-        {
-          "course": "Research Paper Writing (A2) RPW401",
-          "percentage": "90"
-        },
-        {
-          "course": "Distributed &Web-based Systems INCS406",
-          "percentage": "58.7302"
-        },
-        {
-          "course": "Introduction to Data Science INCS408",
-          "percentage": "52.9412"
-        },
-        {
-          "course": "Introduction to Media Informatics INCS409",
-          "percentage": "36.25"
-        },
-        {
-          "course": "Mathematics IV MATH403",
-          "percentage": "34.1667"
-        },
-        {
-          "course": "Information Security INCS407",
-          "percentage": "33.2168"
-        },
-        {
-          "course": "Software Engineering CSEN406",
-          "percentage": "60.3675"
-        }
-      ]
     },
     "4674": {
       "available_courses": [
@@ -315,402 +726,6 @@
           "quiz_assignment": "Quiz 3"
         }
       ],
-      "midterm_results": [
-        {
-          "course": "Research Paper Writing (A2) RPW401",
-          "percentage": "90"
-        },
-        {
-          "course": "Distributed &Web-based Systems INCS406",
-          "percentage": "58.7302"
-        },
-        {
-          "course": "Introduction to Data Science INCS408",
-          "percentage": "52.9412"
-        },
-        {
-          "course": "Introduction to Media Informatics INCS409",
-          "percentage": "36.25"
-        },
-        {
-          "course": "Mathematics IV MATH403",
-          "percentage": "34.1667"
-        },
-        {
-          "course": "Information Security INCS407",
-          "percentage": "33.2168"
-        },
-        {
-          "course": "Software Engineering CSEN406",
-          "percentage": "60.3675"
-        }
-      ]
-    },
-    "4715": {
-      "available_courses": [
-        {
-          "code": "69",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        },
-        {
-          "code": "105",
-          "name": "German 4",
-          "selected": false
-        },
-        {
-          "code": "4674",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "4676",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "4677",
-          "name": "Information Security",
-          "selected": false
-        },
-        {
-          "code": "4678",
-          "name": "Introduction to Data Science",
-          "selected": false
-        },
-        {
-          "code": "4679",
-          "name": "Introduction to Media Informatics",
-          "selected": false
-        },
-        {
-          "code": "4715",
-          "name": "Software Engineering",
-          "selected": true
-        }
-      ],
-      "detailed_grades": [
-        {
-          "element_name": "Group Evaluation",
-          "grade": "26.25/26.25",
-          "professor": "John Fayez Wanis Zaki",
-          "quiz_assignment": "Project"
-        },
-        {
-          "element_name": "Individual Quiz",
-          "grade": "13.88/15.75",
-          "professor": "John Fayez Wanis Zaki",
-          "quiz_assignment": ""
-        }
-      ],
-      "midterm_results": [
-        {
-          "course": "Research Paper Writing (A2) RPW401",
-          "percentage": "90"
-        },
-        {
-          "course": "Distributed &Web-based Systems INCS406",
-          "percentage": "58.7302"
-        },
-        {
-          "course": "Introduction to Data Science INCS408",
-          "percentage": "52.9412"
-        },
-        {
-          "course": "Introduction to Media Informatics INCS409",
-          "percentage": "36.25"
-        },
-        {
-          "course": "Mathematics IV MATH403",
-          "percentage": "34.1667"
-        },
-        {
-          "course": "Information Security INCS407",
-          "percentage": "33.2168"
-        },
-        {
-          "course": "Software Engineering CSEN406",
-          "percentage": "60.3675"
-        }
-      ]
-    },
-    "4679": {
-      "available_courses": [
-        {
-          "code": "69",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        },
-        {
-          "code": "105",
-          "name": "German 4",
-          "selected": false
-        },
-        {
-          "code": "4674",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "4676",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "4677",
-          "name": "Information Security",
-          "selected": false
-        },
-        {
-          "code": "4678",
-          "name": "Introduction to Data Science",
-          "selected": false
-        },
-        {
-          "code": "4679",
-          "name": "Introduction to Media Informatics",
-          "selected": true
-        },
-        {
-          "code": "4715",
-          "name": "Software Engineering",
-          "selected": false
-        }
-      ],
-      "detailed_grades": [
-        {
-          "element_name": "Total",
-          "grade": "7/15.7",
-          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
-          "quiz_assignment": "Quiz 1"
-        },
-        {
-          "element_name": "Total",
-          "grade": "7.5/15.7",
-          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
-          "quiz_assignment": "Quiz 2"
-        },
-        {
-          "element_name": "Total",
-          "grade": "7/15.75",
-          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
-          "quiz_assignment": "Quiz 3"
-        },
-        {
-          "element_name": "Assignment1",
-          "grade": "6/6",
-          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
-          "quiz_assignment": "Assignments"
-        },
-        {
-          "element_name": "Assignment2",
-          "grade": "6.01/6.3",
-          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
-          "quiz_assignment": ""
-        },
-        {
-          "element_name": "Project",
-          "grade": "8.7/8.7",
-          "professor": "Noor Magdy AbdEl-Fattah Mahmoud",
-          "quiz_assignment": ""
-        }
-      ],
-      "midterm_results": [
-        {
-          "course": "Research Paper Writing (A2) RPW401",
-          "percentage": "90"
-        },
-        {
-          "course": "Distributed &Web-based Systems INCS406",
-          "percentage": "58.7302"
-        },
-        {
-          "course": "Introduction to Data Science INCS408",
-          "percentage": "52.9412"
-        },
-        {
-          "course": "Introduction to Media Informatics INCS409",
-          "percentage": "36.25"
-        },
-        {
-          "course": "Mathematics IV MATH403",
-          "percentage": "34.1667"
-        },
-        {
-          "course": "Information Security INCS407",
-          "percentage": "33.2168"
-        },
-        {
-          "course": "Software Engineering CSEN406",
-          "percentage": "60.3675"
-        }
-      ]
-    },
-    "4677": {
-      "available_courses": [
-        {
-          "code": "69",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        },
-        {
-          "code": "105",
-          "name": "German 4",
-          "selected": false
-        },
-        {
-          "code": "4674",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "4676",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "4677",
-          "name": "Information Security",
-          "selected": true
-        },
-        {
-          "code": "4678",
-          "name": "Introduction to Data Science",
-          "selected": false
-        },
-        {
-          "code": "4679",
-          "name": "Introduction to Media Informatics",
-          "selected": false
-        },
-        {
-          "code": "4715",
-          "name": "Software Engineering",
-          "selected": false
-        }
-      ],
-      "detailed_grades": [
-        {
-          "element_name": "Quiz 1",
-          "grade": "0/20",
-          "professor": "Mohamed Wael Elsayed Ahmed",
-          "quiz_assignment": "Quiz 1"
-        },
-        {
-          "element_name": "Quiz 2",
-          "grade": "3/20",
-          "professor": "Mohamed Wael Elsayed Ahmed",
-          "quiz_assignment": "Quiz 2"
-        },
-        {
-          "element_name": "Assignment 1",
-          "grade": "10/10",
-          "professor": "Mohamed Wael Elsayed Ahmed",
-          "quiz_assignment": "Assignment 1"
-        },
-        {
-          "element_name": "Assignment 2",
-          "grade": "9.5/10",
-          "professor": "Mohamed Wael Elsayed Ahmed",
-          "quiz_assignment": "Assignment 2"
-        },
-        {
-          "element_name": "Quiz 3",
-          "grade": "14/20",
-          "professor": "Mohamed Wael Elsayed Ahmed",
-          "quiz_assignment": "Quiz 3"
-        }
-      ],
-      "midterm_results": [
-        {
-          "course": "Research Paper Writing (A2) RPW401",
-          "percentage": "90"
-        },
-        {
-          "course": "Distributed &Web-based Systems INCS406",
-          "percentage": "58.7302"
-        },
-        {
-          "course": "Introduction to Data Science INCS408",
-          "percentage": "52.9412"
-        },
-        {
-          "course": "Introduction to Media Informatics INCS409",
-          "percentage": "36.25"
-        },
-        {
-          "course": "Mathematics IV MATH403",
-          "percentage": "34.1667"
-        },
-        {
-          "course": "Information Security INCS407",
-          "percentage": "33.2168"
-        },
-        {
-          "course": "Software Engineering CSEN406",
-          "percentage": "60.3675"
-        }
-      ]
-    },
-    "244603": {
-      "available_courses": [],
-      "detailed_grades": [],
-      "midterm_results": []
-    },
-    "244608": {
-      "available_courses": [],
-      "detailed_grades": [],
-      "midterm_results": []
-    },
-    "244607": {
-      "available_courses": [],
-      "detailed_grades": [],
-      "midterm_results": []
-    },
-    "105": {
-      "available_courses": [
-        {
-          "code": "69",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        },
-        {
-          "code": "105",
-          "name": "German 4",
-          "selected": true
-        },
-        {
-          "code": "4674",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "4676",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "4677",
-          "name": "Information Security",
-          "selected": false
-        },
-        {
-          "code": "4678",
-          "name": "Introduction to Data Science",
-          "selected": false
-        },
-        {
-          "code": "4679",
-          "name": "Introduction to Media Informatics",
-          "selected": false
-        },
-        {
-          "code": "4715",
-          "name": "Software Engineering",
-          "selected": false
-        }
-      ],
-      "detailed_grades": [],
       "midterm_results": [
         {
           "course": "Research Paper Writing (A2) RPW401",
@@ -865,185 +880,10 @@
           "percentage": "60.3675"
         }
       ]
-    },
-    "260681": {
-      "available_courses": [],
-      "detailed_grades": [],
-      "midterm_results": []
-    },
-    "244609": {
-      "available_courses": [],
-      "detailed_grades": [],
-      "midterm_results": []
-    },
-    "244604": {
-      "available_courses": [],
-      "detailed_grades": [],
-      "midterm_results": []
     }
   },
   "detailed_attendance": {
-    "244606": {
-      "available_courses": [
-        {
-          "code": "244609",
-          "name": "Software Engineering",
-          "selected": false
-        },
-        {
-          "code": "244603",
-          "name": "German 4",
-          "selected": false
-        },
-        {
-          "code": "244605",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "244606",
-          "name": "Information Security",
-          "selected": true
-        },
-        {
-          "code": "244607",
-          "name": "Introduction to Data Science",
-          "selected": false
-        },
-        {
-          "code": "244608",
-          "name": "Introduction to Media Informatics",
-          "selected": false
-        },
-        {
-          "code": "244604",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "260681",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        }
-      ],
-      "detailed_attendance": [
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.02.08 - Regular  - Slot1 - 2h",
-          "session_number": 1,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.02.15 - Regular  - Slot1 - 2h",
-          "session_number": 2,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.02.22 - Regular  - Slot1 - 2h",
-          "session_number": 3,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.03.01 - Regular  - Slot1 - 2h",
-          "session_number": 4,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.03.08 - Regular  - Slot1 - 2h",
-          "session_number": 5,
-          "status": "Absent"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.04.05 - Regular  - Slot1 - 2h",
-          "session_number": 6,
-          "status": "Absent"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.04.12 - Regular  - Slot1 - 2h",
-          "session_number": 7,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.04.26 - Regular  - Slot1 - 2h",
-          "session_number": 8,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.03 - Regular  - Slot1 - 2h",
-          "session_number": 9,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.10 - Regular  - Slot1 - 2h",
-          "session_number": 10,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.17 - Regular  - Slot1 - 2h",
-          "session_number": 11,
-          "status": "Absent"
-        },
-        {
-          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.24 - Regular  - Slot1 - 2h",
-          "session_number": 12,
-          "status": "Attended"
-        }
-      ],
-      "selected_course": {
-        "code": "244606",
-        "name": "Information Security",
-        "selected": true
-      },
-      "statistics": {
-        "absent": 3,
-        "attendance_percentage": 75.0,
-        "attended": 9,
-        "total_sessions": 12
-      },
-      "warning_courses": [
-        {
-          "code": "MATH 403",
-          "name": "Mathematics IV",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 1
-        },
-        {
-          "code": "INCS 409",
-          "name": "Introduction to Media Informatics",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 1
-        },
-        {
-          "code": "CSEN 406",
-          "name": "Software Engineering",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 1
-        },
-        {
-          "code": "DE 404",
-          "name": "German 4",
-          "semester": "Spring 2025 GIU- German Language- Enrolled",
-          "warning_level": 2
-        },
-        {
-          "code": "INCS 407",
-          "name": "Information Security",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 2
-        },
-        {
-          "code": "INCS 408",
-          "name": "Introduction to Data Science",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 2
-        }
-      ],
-      "warning_levels": {
-        "1": "First warning",
-        "2": "Second warning",
-        "3": "Course Drop (exceeded 25% Absence)"
-      }
-    },
-    "4676": {
+    "4715": {
       "available_courses": [],
       "detailed_attendance": [],
       "error": "Failed to fetch course details: 500",
@@ -1210,35 +1050,7 @@
         "3": "Course Drop (exceeded 25% Absence)"
       }
     },
-    "4678": {
-      "available_courses": [],
-      "detailed_attendance": [],
-      "error": "Failed to fetch course details: 500",
-      "selected_course": null,
-      "warning_courses": []
-    },
-    "4674": {
-      "available_courses": [],
-      "detailed_attendance": [],
-      "error": "Failed to fetch course details: 500",
-      "selected_course": null,
-      "warning_courses": []
-    },
-    "4715": {
-      "available_courses": [],
-      "detailed_attendance": [],
-      "error": "Failed to fetch course details: 500",
-      "selected_course": null,
-      "warning_courses": []
-    },
     "4679": {
-      "available_courses": [],
-      "detailed_attendance": [],
-      "error": "Failed to fetch course details: 500",
-      "selected_course": null,
-      "warning_courses": []
-    },
-    "4677": {
       "available_courses": [],
       "detailed_attendance": [],
       "error": "Failed to fetch course details: 500",
@@ -1455,6 +1267,342 @@
         "3": "Course Drop (exceeded 25% Absence)"
       }
     },
+    "4677": {
+      "available_courses": [],
+      "detailed_attendance": [],
+      "error": "Failed to fetch course details: 500",
+      "selected_course": null,
+      "warning_courses": []
+    },
+    "244606": {
+      "available_courses": [
+        {
+          "code": "244609",
+          "name": "Software Engineering",
+          "selected": false
+        },
+        {
+          "code": "244603",
+          "name": "German 4",
+          "selected": false
+        },
+        {
+          "code": "244605",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "244606",
+          "name": "Information Security",
+          "selected": true
+        },
+        {
+          "code": "244607",
+          "name": "Introduction to Data Science",
+          "selected": false
+        },
+        {
+          "code": "244608",
+          "name": "Introduction to Media Informatics",
+          "selected": false
+        },
+        {
+          "code": "244604",
+          "name": "Mathematics IV",
+          "selected": false
+        },
+        {
+          "code": "260681",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        }
+      ],
+      "detailed_attendance": [
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.02.08 - Regular  - Slot1 - 2h",
+          "session_number": 1,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.02.15 - Regular  - Slot1 - 2h",
+          "session_number": 2,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.02.22 - Regular  - Slot1 - 2h",
+          "session_number": 3,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.03.01 - Regular  - Slot1 - 2h",
+          "session_number": 4,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.03.08 - Regular  - Slot1 - 2h",
+          "session_number": 5,
+          "status": "Absent"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.04.05 - Regular  - Slot1 - 2h",
+          "session_number": 6,
+          "status": "Absent"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.04.12 - Regular  - Slot1 - 2h",
+          "session_number": 7,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.04.26 - Regular  - Slot1 - 2h",
+          "session_number": 8,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.03 - Regular  - Slot1 - 2h",
+          "session_number": 9,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.10 - Regular  - Slot1 - 2h",
+          "session_number": 10,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.17 - Regular  - Slot1 - 2h",
+          "session_number": 11,
+          "status": "Absent"
+        },
+        {
+          "session_details": "S25 - INCS 407 - Information Security - 4INF&CS T003 Tutorial @2025.05.24 - Regular  - Slot1 - 2h",
+          "session_number": 12,
+          "status": "Attended"
+        }
+      ],
+      "selected_course": {
+        "code": "244606",
+        "name": "Information Security",
+        "selected": true
+      },
+      "statistics": {
+        "absent": 3,
+        "attendance_percentage": 75.0,
+        "attended": 9,
+        "total_sessions": 12
+      },
+      "warning_courses": [
+        {
+          "code": "MATH 403",
+          "name": "Mathematics IV",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 1
+        },
+        {
+          "code": "INCS 409",
+          "name": "Introduction to Media Informatics",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 1
+        },
+        {
+          "code": "CSEN 406",
+          "name": "Software Engineering",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 1
+        },
+        {
+          "code": "DE 404",
+          "name": "German 4",
+          "semester": "Spring 2025 GIU- German Language- Enrolled",
+          "warning_level": 2
+        },
+        {
+          "code": "INCS 407",
+          "name": "Information Security",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 2
+        },
+        {
+          "code": "INCS 408",
+          "name": "Introduction to Data Science",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 2
+        }
+      ],
+      "warning_levels": {
+        "1": "First warning",
+        "2": "Second warning",
+        "3": "Course Drop (exceeded 25% Absence)"
+      }
+    },
+    "105": {
+      "available_courses": [],
+      "detailed_attendance": [],
+      "error": "Failed to fetch course details: 500",
+      "selected_course": null,
+      "warning_courses": []
+    },
+    "4678": {
+      "available_courses": [],
+      "detailed_attendance": [],
+      "error": "Failed to fetch course details: 500",
+      "selected_course": null,
+      "warning_courses": []
+    },
+    "244604": {
+      "available_courses": [
+        {
+          "code": "244609",
+          "name": "Software Engineering",
+          "selected": false
+        },
+        {
+          "code": "244603",
+          "name": "German 4",
+          "selected": false
+        },
+        {
+          "code": "244605",
+          "name": "Distributed &Web-based Systems",
+          "selected": false
+        },
+        {
+          "code": "244606",
+          "name": "Information Security",
+          "selected": false
+        },
+        {
+          "code": "244607",
+          "name": "Introduction to Data Science",
+          "selected": false
+        },
+        {
+          "code": "244608",
+          "name": "Introduction to Media Informatics",
+          "selected": false
+        },
+        {
+          "code": "244604",
+          "name": "Mathematics IV",
+          "selected": true
+        },
+        {
+          "code": "260681",
+          "name": "Research Paper Writing (A2)",
+          "selected": false
+        }
+      ],
+      "detailed_attendance": [
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.02.09 - Regular  - Slot2 - 2h",
+          "session_number": 1,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.02.16 - Regular  - Slot2 - 2h",
+          "session_number": 2,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.02.23 - Regular  - Slot2 - 2h",
+          "session_number": 3,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.03.02 - Regular  - Slot2 - 2h",
+          "session_number": 4,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.03.09 - Regular  - Slot2 - 2h",
+          "session_number": 5,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.04.06 - Regular  - Slot2 - 2h",
+          "session_number": 6,
+          "status": "Absent"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.04.27 - Regular  - Slot2 - 2h",
+          "session_number": 7,
+          "status": "Absent"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.04 - Regular  - Slot2 - 2h",
+          "session_number": 8,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.11 - Regular  - Slot2 - 2h",
+          "session_number": 9,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.18 - Regular  - Slot2 - 2h",
+          "session_number": 10,
+          "status": "Attended"
+        },
+        {
+          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.25 - Regular  - Slot2 - 2h",
+          "session_number": 11,
+          "status": "Attended"
+        }
+      ],
+      "selected_course": {
+        "code": "244604",
+        "name": "Mathematics IV",
+        "selected": true
+      },
+      "statistics": {
+        "absent": 2,
+        "attendance_percentage": 81.82,
+        "attended": 9,
+        "total_sessions": 11
+      },
+      "warning_courses": [
+        {
+          "code": "MATH 403",
+          "name": "Mathematics IV",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 1
+        },
+        {
+          "code": "INCS 409",
+          "name": "Introduction to Media Informatics",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 1
+        },
+        {
+          "code": "CSEN 406",
+          "name": "Software Engineering",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 1
+        },
+        {
+          "code": "DE 404",
+          "name": "German 4",
+          "semester": "Spring 2025 GIU- German Language- Enrolled",
+          "warning_level": 2
+        },
+        {
+          "code": "INCS 407",
+          "name": "Information Security",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 2
+        },
+        {
+          "code": "INCS 408",
+          "name": "Introduction to Data Science",
+          "semester": "Spring 2025 GIU-Enrolled",
+          "warning_level": 2
+        }
+      ],
+      "warning_levels": {
+        "1": "First warning",
+        "2": "Second warning",
+        "3": "Course Drop (exceeded 25% Absence)"
+      }
+    },
     "244608": {
       "available_courses": [
         {
@@ -1614,175 +1762,6 @@
         "2": "Second warning",
         "3": "Course Drop (exceeded 25% Absence)"
       }
-    },
-    "244607": {
-      "available_courses": [
-        {
-          "code": "244609",
-          "name": "Software Engineering",
-          "selected": false
-        },
-        {
-          "code": "244603",
-          "name": "German 4",
-          "selected": false
-        },
-        {
-          "code": "244605",
-          "name": "Distributed &Web-based Systems",
-          "selected": false
-        },
-        {
-          "code": "244606",
-          "name": "Information Security",
-          "selected": false
-        },
-        {
-          "code": "244607",
-          "name": "Introduction to Data Science",
-          "selected": true
-        },
-        {
-          "code": "244608",
-          "name": "Introduction to Media Informatics",
-          "selected": false
-        },
-        {
-          "code": "244604",
-          "name": "Mathematics IV",
-          "selected": false
-        },
-        {
-          "code": "260681",
-          "name": "Research Paper Writing (A2)",
-          "selected": false
-        }
-      ],
-      "detailed_attendance": [
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.02.12 - Regular  - Slot5 - 2h",
-          "session_number": 1,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.02.19 - Regular  - Slot5 - 2h",
-          "session_number": 2,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.02.26 - Regular  - Slot5 - 2h",
-          "session_number": 3,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.03.05 - Regular  - Slot5 - 2h",
-          "session_number": 4,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.03.12 - Regular  - Slot5 - 2h",
-          "session_number": 5,
-          "status": "Absent"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.04.09 - Regular  - Slot5 - 2h",
-          "session_number": 6,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.04.16 - Regular  - Slot5 - 2h",
-          "session_number": 7,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.04.23 - Regular  - Slot5 - 2h",
-          "session_number": 8,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.05.07 - Regular  - Slot5 - 2h",
-          "session_number": 9,
-          "status": "Attended"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.05.14 - Regular  - Slot5 - 2h",
-          "session_number": 10,
-          "status": "Absent"
-        },
-        {
-          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.05.21 - Regular  - Slot5 - 2h",
-          "session_number": 11,
-          "status": "Absent"
-        }
-      ],
-      "selected_course": {
-        "code": "244607",
-        "name": "Introduction to Data Science",
-        "selected": true
-      },
-      "statistics": {
-        "absent": 3,
-        "attendance_percentage": 72.73,
-        "attended": 8,
-        "total_sessions": 11
-      },
-      "warning_courses": [
-        {
-          "code": "MATH 403",
-          "name": "Mathematics IV",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 1
-        },
-        {
-          "code": "INCS 409",
-          "name": "Introduction to Media Informatics",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 1
-        },
-        {
-          "code": "CSEN 406",
-          "name": "Software Engineering",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 1
-        },
-        {
-          "code": "DE 404",
-          "name": "German 4",
-          "semester": "Spring 2025 GIU- German Language- Enrolled",
-          "warning_level": 2
-        },
-        {
-          "code": "INCS 407",
-          "name": "Information Security",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 2
-        },
-        {
-          "code": "INCS 408",
-          "name": "Introduction to Data Science",
-          "semester": "Spring 2025 GIU-Enrolled",
-          "warning_level": 2
-        }
-      ],
-      "warning_levels": {
-        "1": "First warning",
-        "2": "Second warning",
-        "3": "Course Drop (exceeded 25% Absence)"
-      }
-    },
-    "105": {
-      "available_courses": [],
-      "detailed_attendance": [],
-      "error": "Failed to fetch course details: 500",
-      "selected_course": null,
-      "warning_courses": []
-    },
-    "69": {
-      "available_courses": [],
-      "detailed_attendance": [],
-      "error": "Failed to fetch course details: 500",
-      "selected_course": null,
-      "warning_courses": []
     },
     "260681": {
       "available_courses": [
@@ -2079,7 +2058,14 @@
         "3": "Course Drop (exceeded 25% Absence)"
       }
     },
-    "244604": {
+    "4676": {
+      "available_courses": [],
+      "detailed_attendance": [],
+      "error": "Failed to fetch course details: 500",
+      "selected_course": null,
+      "warning_courses": []
+    },
+    "244607": {
       "available_courses": [
         {
           "code": "244609",
@@ -2104,7 +2090,7 @@
         {
           "code": "244607",
           "name": "Introduction to Data Science",
-          "selected": false
+          "selected": true
         },
         {
           "code": "244608",
@@ -2114,7 +2100,7 @@
         {
           "code": "244604",
           "name": "Mathematics IV",
-          "selected": true
+          "selected": false
         },
         {
           "code": "260681",
@@ -2124,70 +2110,70 @@
       ],
       "detailed_attendance": [
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.02.09 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.02.12 - Regular  - Slot5 - 2h",
           "session_number": 1,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.02.16 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.02.19 - Regular  - Slot5 - 2h",
           "session_number": 2,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.02.23 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.02.26 - Regular  - Slot5 - 2h",
           "session_number": 3,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.03.02 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.03.05 - Regular  - Slot5 - 2h",
           "session_number": 4,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.03.09 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.03.12 - Regular  - Slot5 - 2h",
           "session_number": 5,
+          "status": "Absent"
+        },
+        {
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.04.09 - Regular  - Slot5 - 2h",
+          "session_number": 6,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.04.06 - Regular  - Slot2 - 2h",
-          "session_number": 6,
-          "status": "Absent"
-        },
-        {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.04.27 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.04.16 - Regular  - Slot5 - 2h",
           "session_number": 7,
-          "status": "Absent"
+          "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.04 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.04.23 - Regular  - Slot5 - 2h",
           "session_number": 8,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.11 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.05.07 - Regular  - Slot5 - 2h",
           "session_number": 9,
           "status": "Attended"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.18 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.05.14 - Regular  - Slot5 - 2h",
           "session_number": 10,
-          "status": "Attended"
+          "status": "Absent"
         },
         {
-          "session_details": "S25 - MATH 403 - Mathematics IV - 4INF&CS T003 Tutorial @2025.05.25 - Regular  - Slot2 - 2h",
+          "session_details": "S25 - INCS 408 - Introduction to Data Science - 4INF&CS P003 Practical @2025.05.21 - Regular  - Slot5 - 2h",
           "session_number": 11,
-          "status": "Attended"
+          "status": "Absent"
         }
       ],
       "selected_course": {
-        "code": "244604",
-        "name": "Mathematics IV",
+        "code": "244607",
+        "name": "Introduction to Data Science",
         "selected": true
       },
       "statistics": {
-        "absent": 2,
-        "attendance_percentage": 81.82,
-        "attended": 9,
+        "absent": 3,
+        "attendance_percentage": 72.73,
+        "attended": 8,
         "total_sessions": 11
       },
       "warning_courses": [
@@ -2233,6 +2219,20 @@
         "2": "Second warning",
         "3": "Course Drop (exceeded 25% Absence)"
       }
+    },
+    "4674": {
+      "available_courses": [],
+      "detailed_attendance": [],
+      "error": "Failed to fetch course details: 500",
+      "selected_course": null,
+      "warning_courses": []
+    },
+    "69": {
+      "available_courses": [],
+      "detailed_attendance": [],
+      "error": "Failed to fetch course details: 500",
+      "selected_course": null,
+      "warning_courses": []
     }
   },
   "detailed_transcripts": {
